@@ -5,6 +5,7 @@
         None,
         Dessert,
         Dish,
-        Sidedish
+        Sidedish,
+        Soup
     };
 }
