@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MealPorts
+namespace Italbytz.Ports.Meal
 {
     [Flags]
     public enum Allergens

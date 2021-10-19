@@ -1,4 +1,4 @@
-﻿namespace MealPorts
+﻿namespace Italbytz.Ports.Meal
 {
     public enum Category
     {

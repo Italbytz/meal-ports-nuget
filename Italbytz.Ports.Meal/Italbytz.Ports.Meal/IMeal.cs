@@ -1,5 +1,5 @@
 ﻿using System;
-namespace MealPorts
+namespace Italbytz.Ports.Meal
 {
     public interface IMeal
     {
