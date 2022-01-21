@@ -1,12 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
-    <PackOnBuild>true</PackOnBuild>
-    <PackageVersion>0.3.0</PackageVersion>
-    <Authors>Robin Nunkesser</Authors>
-    <PackageLicenseUrl>https://github.com/Italbytz/nuget-ports-meal/blob/main/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/Italbytz/nuget-ports-meal</PackageProjectUrl>
-  </PropertyGroup>
-
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+		<PackOnBuild>true</PackOnBuild>
+		<PackageVersion>0.4.0</PackageVersion>
+		<Authors>Robin Nunkesser</Authors>
+		<PackageLicenseUrl>https://github.com/Italbytz/nuget-ports-meal/blob/main/LICENSE</PackageLicenseUrl>
+		<PackageProjectUrl>https://github.com/Italbytz/nuget-ports-meal</PackageProjectUrl>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Remove="Italbytz.Ports.Common" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Italbytz.Ports.Common" Version="0.3.0" />
+	</ItemGroup>
 </Project>
