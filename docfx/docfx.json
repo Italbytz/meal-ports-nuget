@@ -3,9 +3,9 @@
     {
       "src": [
         {
-          "src": "../Italbytz.Ports.Algorithms",
+          "src": "../Italbytz.Ports.Meal",
           "files": [
-            "Italbytz.Ports.Algorithms/*.csproj"
+            "Italbytz.Ports.Meal/*.csproj"
           ]
         }
       ],
@@ -36,8 +36,8 @@
       "modern"
     ],
     "globalMetadata": {
-      "_appName": "Italbytz.Ports.Algorithms",
-      "_appTitle": "Italbytz.Ports.Algorithms",
+      "_appName": "Italbytz.Ports.Meal",
+      "_appTitle": "Italbytz.Ports.Meal",
       "_enableSearch": true,
       "pdf": false
     }
